@@ -220,14 +220,24 @@ footer{
                 width: 100%;
             }
 
+            .item-wraper, .player-wrapper{
+                padding: 15px;
+            }
+
             .players{
                 grid-template-columns: repeat(1, 1fr);
                
             }
         
             .player{
-                margin-left: 15px;
-                margin-right: 15px;
+                margin: 15px;
+                padding: 15px;
+            }
+
+            .player img{
+                width: 100%;
+                /* margin-left: 15px;
+                margin-right: 15px; */
             }
 
             .header-area, .Barcelona{
@@ -235,15 +245,33 @@ footer{
                 height: 90%;
             }
 
-            .banner-img img, .barca-banner img{
+            .banner-img img{
                 width: 300px;
                 padding-top: 30px;
                 padding-left: 30px;
+               
+            }
+
+            .barca-banner{
+                padding: 15px;
+
+            }
+
+            .barca-banner img {
+                width: 100%;
+                padding: 0px;
+                object-fit: cover;
+
             }
 
             .section-title{
                 padding-left: 15px;
                 margin: 0;
+            }
+
+            .barca-info {
+                padding-left: 0;
+                margin: 15px;
             }
 
          .our-man{
@@ -274,5 +302,7 @@ footer{
         .head-coach img{
             width: 100%;
         }
+
+
 
         }            
