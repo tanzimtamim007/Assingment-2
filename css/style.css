@@ -35,7 +35,7 @@ Header Section
     color: white;
     font-size: 1.5em;
     margin-top: 100px;
-    margin-left: 80px;
+    padding-left: 250px;
 }
 .section-title p{
     font-size: 15px;
@@ -61,7 +61,7 @@ Header Section
     width: 400px;
     height: 350px;
     padding-top: 100px;
-    padding-left: 200px;
+    padding-left: 250px;
 }
 
 
@@ -126,7 +126,7 @@ footer{
 
         /*------- Mobile Device ------------*/
 
-        /* @media only screen and (max-width: 688px) {
+        @media only screen and (max-width: 688px) {
             .container{
                 width: 100%;
             }
@@ -155,4 +155,4 @@ footer{
                 padding-left: 15px;
                 margin: 0;
             }
-        }             */
+        }            
