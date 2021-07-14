@@ -95,6 +95,95 @@ Header Section
      font-size: 12px;
  }
 
+
+
+/*----------------------
+    Bonus Section 
+    --------------------------------------*/
+
+.Barcelona{
+    display: flex;
+}
+
+.barca-banner img{
+    width: 600px;
+    height: 440px;
+    margin-top: 300px;
+    padding-left: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.barca-info{
+    padding-left: 50px;
+    margin-top: 100px;
+}
+
+.barca-info h2{
+        font-size: 40px;
+      text-align: center;
+      color: yellowgreen;
+} 
+
+.barca-info p{
+    font-size: 15px;
+}
+
+.memebership{
+    text-decoration: none;
+    background-color: orange;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+.memebership:hover{
+    background-color: grey;
+    color: black;
+    transition: background-color 1s, color 1s;
+}
+
+
+
+/*-------------------------------
+            Team Management
+---------------------------------------------------- */
+
+.our-man{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+
+.team-owner{
+    margin-top: 150px;
+    width: 20%;
+    box-shadow: 0 0 10px grey;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 10px;
+}
+.head-coach{
+    margin-top: 150px;
+    width: 20%;
+    box-shadow: 0 0 10px grey;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 10px;
+}
+.team-owner img{
+    width: 300px;
+    height: 200px;
+}
+
+.head-coach img{
+    width: 300px;
+    height: 270px;
+}
+
+
+
  /*---------
      Footer Section 
      ---------------------*/
@@ -133,6 +222,7 @@ footer{
 
             .players{
                 grid-template-columns: repeat(1, 1fr);
+               
             }
         
             .player{
@@ -140,12 +230,12 @@ footer{
                 margin-right: 15px;
             }
 
-            .header-area{
+            .header-area, .Barcelona{
                 flex-direction: column;
                 height: 90%;
             }
 
-            .banner-img img{
+            .banner-img img, .barca-banner img{
                 width: 300px;
                 padding-top: 30px;
                 padding-left: 30px;
@@ -155,4 +245,34 @@ footer{
                 padding-left: 15px;
                 margin: 0;
             }
+
+         .our-man{
+            flex-direction: column ;
+         }   
+
+         .team-owner{
+            width: 100%;
+            box-shadow: 0 0 10px grey;
+            margin-right: 0;
+            margin-left: 0;
+            padding: 0;
+
+        }
+
+         .head-coach{
+            width: 100%;
+            box-shadow: 0 0 10px grey;
+            margin-right: 0;
+            margin-left: 0;
+            padding: 0;
+        }
+
+        .team-owner img{
+            width: 100%;
+        }
+
+        .head-coach img{
+            width: 100%;
+        }
+
         }            
